@@ -1,0 +1,38 @@
+\documentclass[a4paper,landscape]{letter}
+
+% load ticket.sty with the appropriate ticket definition
+
+\usepackage[8sheet,boxed]{ticket}
+
+% load misc stuff
+\usepackage{graphicx}
+\usepackage{helvet}
+\usepackage{color}
+% make your default ticket. \ticketdefault is somewhat like a background
+\renewcommand{\ticketdefault}{%
+  \put(0,  0){\includegraphics[width=68mm]{bg}}
+  \put( 7, 40){\Large \color{white} \textbf{Carbon:}}
+  \put( 7, 31){\Large \color{white} \textbf{Calories:}}
+  \put( 7, 22.5){\Large \color{white} \textbf{Fat:}}
+  \put( 7, 14){\Large \color{black} \textbf{Sugar:}}
+  \put( 7, 5.5){\Large \color{black} \textbf{Fibre:}}
+}
+
+% now what do you like to put in your ticket
+\newcommand{\card}[7]{\ticket{%
+	\put( 34, 89){\makebox[0mm]{\LARGE \color{black} \textbf{#1}}}
+    \put( 40, 40){\makebox[0mm]{\Large \color{white} \textbf{#2}}}
+    \put( 40, 31){\makebox[0mm]{\Large \color{white} \textbf{#3}}}
+    \put( 40, 22.5){\makebox[0mm]{\Large \color{white} \textbf{#4}}}
+    \put( 40, 14){\makebox[0mm]{\Large \color{black} \textbf{#5}}}
+    \put( 40, 5.5){\makebox[0mm]{\Large \color{black} \textbf{#6}}}
+    \put( 33,47){\makebox[0mm]{\includegraphics[height=35mm]{#7}}}
+    }}
+
+%% you can generate this part from a database!
+\begin{document}
+\sffamily
+\card{Banana}{23}{121}{55}{87}{90}{images/banana1.jpg}
+\card{Hotdog}{100}{24}{18}{11.5}{15}{images/hot1.jpg}
+
+\end{document}

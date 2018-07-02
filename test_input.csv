@@ -1,1 +1,3 @@
-﻿name	co2e	kcal	fibre	fat	carb	imageBanana	123	90	45	3	38	banana1.jpgHotdog	435	570	100	124	60	hot1.png
+name,carbon,calories,fibre,fat,carbohydrate,image
+Banana,123,90,45,3,38,images/banana1.jpg
+Hotdog,435,570,100,124,60,images/hot1.jpg
