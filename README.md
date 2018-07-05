@@ -6,6 +6,7 @@ Python script for generating nice looking flashcards for 'Top Trump' style game
 - ~~get suitable output for food database for cards.csv~~ sara-es 04.07
 - compile an image library for all included foods
 - standardize all portion sizes
+- add column to cards.csv for "equivalent time in car" CO2e
 - add the following foods to complete plastic food set:
   asparagus
   steak
