@@ -17,16 +17,16 @@ with open('cards.csv', newline='') as csvfile:
     catalogue = open('latex/catalogue.tex', 'w')
     for row in creader:
         #sorry for the hardcoding hackjob
-        name = row[2].title()
-        img = row[2].replace(' ', '-').lower()
-        carbon = row[1].split('.',1)[0]
+        name = row[1]
+        img = row[2]
+        carbon = row[8].split('.',1)[0]
         cals = row[3].split('.',1)[0]
         prot = row[4].split('.',1)[0]
         fib = row[5].split('.',1)[0]
         sugar = row[6].split('.',1)[0]
         fat = row[7].split('.',1)[0]
         catalogue.write('\card{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{images/{}.png}}\n'.format(
-            name, carbon, cals, fat, sugar, fib, img))
+            name, carbon, cals, prot, sugar, fib, img))
         
         #if I export data properly
         #print('\card{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}'.format(row[i] for i in row[1:6], img)
