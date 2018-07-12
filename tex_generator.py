@@ -16,17 +16,17 @@ with open('cards.csv', newline='') as csvfile:
     creader = csv.reader(csvfile, delimiter=',')
     catalogue = open('latex/catalogue.tex', 'w')
     for row in creader:
-        #sorry for the hardcoding hackjob
-        name = row[1]
-        img = row[2]
-        carbon = row[8].split('.',1)[0]
-        cals = row[3].split('.',1)[0]
-        prot = row[4].split('.',1)[0]
-        fib = row[5].split('.',1)[0]
-        sugar = row[6].split('.',1)[0]
-        fat = row[7].split('.',1)[0]
-        catalogue.write('\card{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{images/{}.png}}\n'.format(
-            name, carbon, cals, prot, sugar, fib, img))
-        
-        #if I export data properly
-        #print('\card{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}'.format(row[i] for i in row[1:6], img)
+        #Hardcoding hackjob
+        #Data should be in .csv format columns name, caption, time in car, carbon, kcals, fat, sugar, protein, img filename
+        name = row[0]
+        subcap = row[1]
+        carTime = row[2]
+        img = row[8]
+        carbon = row[3]
+        cals = row[4]
+        prot = row[7]
+        sugar = row[6]
+        fat = row[5]
+        catalogue.write('\card{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{{}}}{{images/{}}}\n'.format(
+            name, subcap, carTime, carbon, cals, fat, sugar, prot, img))        
+

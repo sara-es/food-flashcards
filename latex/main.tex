@@ -3,6 +3,7 @@
 % load ticket.sty with the appropriate ticket definition
 
 \usepackage[8sheet,boxed]{ticket}
+\usepackage[export]{adjustbox}
 
 % load misc stuff
 \usepackage{graphicx}
@@ -14,23 +15,29 @@
 
 % make your default ticket. \ticketdefault is somewhat like a background
 \renewcommand{\ticketdefault}{%
-  \put(0,  0){\includegraphics[width=68mm, height=99mm]{bg2}}
-  \put( 9, 39){\Large \color{white} \textbf{Carbon:}}
-  \put( 9, 30){\Large \color{white} \textbf{Calories:}}
-  \put( 9, 22){\Large \color{black} \textbf{Fat:}}
-  \put( 9, 13){\Large \color{white} \textbf{Sugar:}}
-  \put( 9, 5){\Large \color{white} \textbf{Fibre:}}
+  \put(0,  0){\includegraphics[width=68mm, height=99mm]{bg3}}
+  \put( 9, 39){\Large \color{white} \textbf{Carbon}\small \quad g CO$_2$e}
+  \put( 9, 30){\Large \color{white} \textbf{Calories} \small \ \ kCals}
+  \put( 9, 22){\Large \color{black} \textbf{Fat} \small \ \ g}
+  \put( 9, 13){\Large \color{white} \textbf{Sugar} \small \ \ g}
+  \put( 9, 5){\Large \color{white} \textbf{Protein} \small \ \ g}
 }
 
 % now what do you like to put in your ticket
-\newcommand{\card}[7]{\ticket{%
-	\put( 36, 89){\makebox[0mm]{\LARGE \color{Blue} \textbf{#1}}}
-    \put( 45, 39){\makebox[0mm]{\Large \color{white} \textbf{#2}}}
-    \put( 45, 30){\makebox[0mm]{\Large \color{white} \textbf{#3}}}
-    \put( 45, 22){\makebox[0mm]{\Large \color{black} \textbf{#4}}}
-    \put( 45, 13){\makebox[0mm]{\Large \color{white} \textbf{#5}}}
-    \put( 45, 5){\makebox[0mm]{\Large \color{white} \textbf{#6}}}
-    \put( 33,47){\makebox[0mm]{\includegraphics[height=35mm]{#7}}}
+\newcommand{\card}[9]{\ticket{%
+	\put( 34, 90){\makebox[0mm]{\LARGE \color{Blue} \textbf{#1}}}
+	\put( 34, 86){\makebox[0mm]{\small \color{Blue} \textbf{#2}}}
+	\put( 33,47){\makebox[0mm]{\includegraphics[max size={55mm}{35mm}]{#9}}}
+	\put(0,  0){\includegraphics[width=68mm, height=99mm]{circle}}
+	\put( 55.3, 72.5){\makebox[0mm]{\Huge \color{white} \textbf{#3}}}
+	\put( 55.3, 80){\makebox[0mm]{\footnotesize \color{white} CO$_2$}}
+	\put( 55, 66.7){\makebox[0mm]{\footnotesize \color{white} driving}}
+	\put( 55, 69.7){\makebox[0mm]{\small \color{white} \textbf{minutes}}}
+    \put( 45, 39){\hfill{\Large \color{white} \textbf{#4}}}
+    \put( 45, 30){\hfill{\Large \color{white} \textbf{#5}}}
+    \put( 45, 22){\hfill{\Large \color{black} \textbf{#6}}}
+    \put( 45, 13){\hfill{\Large \color{white} \textbf{#7}}}
+    \put( 45, 5){\hfill{\Large \color{white} \textbf{#8}}}  
     }}
 
 \begin{document}
