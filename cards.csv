@@ -1,33 +1,33 @@
 FoodDisplayName,Description,CarTime,CO2ePer,kCals,Fat,Sugar,Protein,ImageFileName
-Apple,"One apple, 125 g",1,44,64,1,15,1,apple.jpg
+Apple,"One apple, 125 g",0.6,44,64,1,15,1,apple.jpg
 Banana,"One banana, 100 g",1,83,85,0,19,1,banana.png
 Beans,"Tinned Baked Beans, 150 g",3,217,117,1,7,7,beans-baked.jpg
 Beef Mince,"Stewed or Cooked, 125 g",37,2875,221,11,0,31,ground-beef.png
 Blueberries,100 g,2,121,40,0,9,1,blueberries.jpg
 Toast,"2 Slices of Toasted White Bread, 80 g",1,97,235,2,3,8,toast.jpg
-Bread,"2 Slices of Bread, 80 g",1,42,241,2,4,9,white-bread.jpg
+Bread,"2 Slices of Bread, 80 g",0.5,42,241,2,4,9,white-bread.jpg
 Broccoli,"Cooked Fresh, 75 g",2,121,21,0,1,2,broccoli.jpg
 Butter,"Salted Butter, 2 tbsp",4,304,237,26,0,0,butter.png
-Tomates,1/2 a Tin of Tomatoes,1,55,23,0,5,1,tinned-tomatoes.jpg
+Tomates,1/2 a Tin of Tomatoes,0.7,55,23,0,5,1,tinned-tomatoes.jpg
 Carrots,"A Small Raw Carrot, 50 g",1,113,17,0,4,0,carrot.png
-Cauliflower,"Cooked Fresh, 60 g",0,22,18,1,2,1,cauliflower.jpg
+Cauliflower,"Cooked Fresh, 60 g",0.3,22,18,1,2,1,cauliflower.jpg
 Cheese,"2 Slices of Cheddar Cheese, 57g",7,524,238,20,0,15,cheese-cheddar.jpg
 Parmesan Cheese,"A Sprinkling of Shredded Cheese, 2 tbsp",3,254,132,9,0,12,Parmigiano_Reggiano.jpg
 Chicken,"Grilled Chicken Breast, 215 g",11,869,312,5,0,68,chicken-breast.jpg
 Chips,"Cooked from Frozen, 125 g",4,329,309,17,2,4,french-fries.jpg
 Fizzy Drink,One Bottle Regular Cola,2,170,136,0,36,0,soft-drink.jpg
-Sweetcorn,Corn on the Cob,1,55,59,2,2,3,corn-on-the-cob.jpg
+Sweetcorn,Corn on the Cob,0.7,55,59,2,2,3,corn-on-the-cob.jpg
 Breakfast Cereal,"Cornflakes, 70 g, with Milk, 100 ml ",3,231,276,1,6,5,Cornflakes.jpg
 Courgette,"One Courgette, Cooked from Fresh, 60 g",1,95,11,0,1,1,courgette.jpg
-Cucumber,"1/2 a Raw Cucmber, 100 g",0,29,14,1,1,1,cucumber.jpg
+Cucumber,"1/2 a Raw Cucmber, 100 g",0.4,29,14,1,1,1,cucumber.jpg
 Digestive,2 Plain Digestives,2,119,174,8,7,2,digestive-plain.png
 Chocolate Digestive,2 Digestives Half Coated in Chocolate,4,322,169,9,8,2,chocolate_digestive_biscuit.jpg
 Eggs,Two Uncooked Eggs,5,388,164,11,0,16,egg.jpg
-Garlic,1 Clove of Garlic,0,2,4,0,0,0,garlic.jpg
-Grapes,"Handful of Green Grapes, 30 g",0,24,19,0,5,0,green-grapes.jpg
+Garlic,1 Clove of Garlic,0.0,2,4,0,0,0,garlic.jpg
+Grapes,"Handful of Green Grapes, 30 g",0.3,24,19,0,5,0,green-grapes.jpg
 Gravy,"Thickened, no fat, 2 tbsp",2,148,14,0,0,0,sauce_boat.jpg
 Ham,"Unsmoked Ham, 190 g",11,876,219,7,1,37,ham.jpg
-Honey,1 tbsp,0,5,40,0,11,0,honey.png
+Honey,1 tbsp,0.1,5,40,0,11,0,honey.png
 Instant Cereal,"Unsweetened Hot Oat Cereal, 1 packet",1,94,134,3,0,4,Oatmeal.jpg
 Jaffa Cakes,2 Jaffa Cakes,1,105,123,3,18,1,Jaffa_cake.png
 Chocolate Wafer Bar,2 Bars or 1 Packet,10,761,415,23,37,4,Kit-Kat-Senses.jpg
@@ -38,24 +38,24 @@ Chocolate Bar,1 Chocolate and Nougat Bar,4,335,310,12,49,3,Milky-way-broken.JPG
 Mayonnaise,2 tbsp,2,117,169,18,1,0,mayo.jpg
 Milk Chocolate,1/2 Milk Chocolate Bar,3,233,130,8,14,2,milk-chocolate.jpg
 Milk,"2\% Semi-skimmed Milk, 350 ml",7,536,173,6,18,13,milk.png
-Milk,"2\% Semi-skimmed Milk, 2 tbsp",1,43,14,0,1,1,milk.png
-Salad,"Mixed Leaf, 20 g",0,17,3,0,0,0,salad.jpg
-Mushrooms,"Uncooked Mushrooms, 50 g",1,41,5,0,0,1,mushrooms.jpg
+Milk,"2\% Semi-skimmed Milk, 2 tbsp",0.6,43,14,0,1,1,milk.png
+Salad,"Mixed Leaf, 20 g",0.2,17,3,0,0,0,salad.jpg
+Mushrooms,"Uncooked Mushrooms, 50 g",0.5,41,5,0,0,1,mushrooms.jpg
 Olive Oil,2 tbsp ,2,131,248,28,0,0,olive-oil.jpg
-Onion,1 Medium Raw Onion,0,26,49,0,9,2,onion.JPG
+Onion,1 Medium Raw Onion,0.3,26,49,0,9,2,onion.JPG
 Orange Juice,"1 Glass Unsweetened Juice, 190 ml",2,148,64,0,16,1,orange-juice.jpg
 Parsnips,"1 Parsnip Cooked from Fresh, 90 g",2,147,61,1,6,1,Parsnip.jpg
 Pasta Sauce,1/2 Jar Tomato Based Sauce,4,284,111,3,15,4,tomato-sauce.jpg
 Spaghetti,"Cooked Spaghetti, 200 g",8,644,284,1,2,9,spaghetti.jpg
-Pears,1 Medium Pear,1,51,81,0,21,1,pears.jpg
+Pears,1 Medium Pear,0.7,51,81,0,21,1,pears.jpg
 Peas,"Cooked from Frozen, 85 g",1,107,61,1,6,5,peas.jpg
 Pepper,"Ground Peppercorns, 10 mg",0,0,0,0,0,0,ground-pepper.jpg
 Red Pepper,1 Fresh Bell Pepper,3,208,35,0,7,1,Red_bell_pepper.jpg
 Pizza,2 Slices of Pizza with Meat Topping,13,1042,572,23,8,24,Pizza.png
 Crisps,Single Packet Potato Crisps,1,106,242,14,0,3,crisps.jpg
-Potato,"1 Boiled Potato, 135 g",0,27,101,0,1,2,potato.jpg
+Potato,"1 Boiled Potato, 135 g",0.3,27,101,0,1,2,potato.jpg
 Prawns,"Cooked Prawns, 160 g",9,673,111,1,0,25,steamed_shrimp.jpg
-Raisins,"Handful of Dried Raisins, 15 g",0,19,42,0,11,0,raisins.jpg
+Raisins,"Handful of Dried Raisins, 15 g",0.2,19,42,0,11,0,raisins.jpg
 Bacon,"1 Unsmoked Bacon Rasher, 25 g",1,114,75,6,0,6,Bacon.jpg
 Raspberries,"About 25 Raspberries, 100 g ",8,585,25,0,5,1,raspberries.jpg
 White Rice,"Boiled Rice, 150 g",9,722,203,1,0,4,white-rice.jpg
@@ -66,7 +66,7 @@ Salt,"Table Salt, 1/2 tsp",0,2,0,0,0,0,salt.jpg
 Pork Sausages,"2 Grilled Sausages, 130 g",8,601,339,23,3,18,sausage-pork.jpg
 Strawberry,100 g,2,128,32,1,6,1,strawberry.jpg
 Swede,"Boiled Swede, 100 g",2,159,11,0,2,0,turnip.jpg
-Tomato Ketchup,1 tbsp,0,19,17,0,4,0,ketchup.jpg
+Tomato Ketchup,1 tbsp,0.2,19,17,0,4,0,ketchup.jpg
 Tomato,1 Fresh Regular Tomato,1,74,22,0,5,1,tomato.jpg
 Cherry Tomatoes,"About 10 Greenhouse Tomatoes, 160g",5,370,36,1,6,2,cherry_tomatoes.jpg
 Wheat Tortilla,"1 Large Wheat Tortilla, 98 g",2,159,302,7,2,8,flour_tortillas.jpg
