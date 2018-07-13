@@ -2,7 +2,7 @@ FoodDisplayName,Description,CarTime,CO2ePer,kCals,Fat,Sugar,Protein,ImageFileNam
 Apple,"One apple, 125 g",1,44,64,1,15,1,apple.jpg
 Banana,"One banana, 100 g",1,83,85,0,19,1,banana.png
 Beans,"Tinned Baked Beans, 150 g",3,217,117,1,7,7,beans-baked.jpg
-Beef Mince,"Stewed or Cooked, 70 g",37,2875,221,11,0,31,ground-beef.png
+Beef Mince,"Stewed or Cooked, 125 g",37,2875,221,11,0,31,ground-beef.png
 Blueberries,100 g,2,121,40,0,9,1,blueberries.jpg
 Toast,"2 Slices of Toasted White Bread, 80 g",1,97,235,2,3,8,toast.jpg
 Bread,"2 Slices of Bread, 80 g",1,42,241,2,4,9,white-bread.jpg
@@ -17,7 +17,7 @@ Chicken,"Grilled Chicken Breast, 215 g",11,869,312,5,0,68,chicken-breast.jpg
 Chips,"Cooked from Frozen, 125 g",4,329,309,17,2,4,french-fries.jpg
 Fizzy Drink,One Bottle Regular Cola,2,170,136,0,36,0,soft-drink.jpg
 Sweetcorn,Corn on the Cob,1,55,59,2,2,3,corn-on-the-cob.jpg
-Breakfast Cereal,"A Bowl of Cornflakes, 70 g, with Milk, 100 ml ",3,231,276,1,6,5,Cornflakes.jpg
+Breakfast Cereal,"Cornflakes, 70 g, with Milk, 100 ml ",3,231,276,1,6,5,Cornflakes.jpg
 Courgette,"One Courgette, Cooked from Fresh, 60 g",1,95,11,0,1,1,courgette.jpg
 Cucumber,"1/2 a Raw Cucmber, 100 g",0,29,14,1,1,1,cucumber.jpg
 Digestive,2 Plain Digestives,2,119,174,8,7,2,digestive-plain.png
@@ -68,7 +68,7 @@ Strawberry,100 g,2,128,32,1,6,1,strawberry.jpg
 Swede,"Boiled Swede, 100 g",2,159,11,0,2,0,turnip.jpg
 Tomato Ketchup,1 tbsp,0,19,17,0,4,0,ketchup.jpg
 Tomato,1 Fresh Regular Tomato,1,74,22,0,5,1,tomato.jpg
-Cherry Tomatoes,"About 10 Greenhouse Cherry Tomatoes, 160g",5,370,36,1,6,2,cherry_tomatoes.jpg
+Cherry Tomatoes,"About 10 Greenhouse Tomatoes, 160g",5,370,36,1,6,2,cherry_tomatoes.jpg
 Wheat Tortilla,"1 Large Wheat Tortilla, 98 g",2,159,302,7,2,8,flour_tortillas.jpg
 Tuna,"Tinned Tuna, 80g",3,269,89,1,0,20,tuna-tinned.jpg
 Vegetable Oil,"Polyunsaturated, 1 tbsp",1,74,140,16,0,0,vegetable-oil.jpg

@@ -2,10 +2,10 @@
 %% For Avery L7165 labels in horizontal format
 %%
 \unitlength=1mm
-\hoffset=-12.9mm
+\hoffset=-17.mm
 \voffset=-24.3mm
 
 \ticketNumbers{4}{2}
 
 \ticketSize{68}{99} % in unitlength
-\ticketDistance{0}{2.54} %in unitlength
+\ticketDistance{2.5}{3.5} %in unitlength
